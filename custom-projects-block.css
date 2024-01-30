@@ -1,0 +1,74 @@
+/* Add this CSS to your custom-projects-block.css file */
+.projects-block {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+/* Adjust the width of the main content area */
+.site-main {
+    width: 100%;
+}
+
+/* Adjust the width of the page container */
+.site {
+    max-width: none;
+}
+
+.wp-block-custom-projects-block-projects.projects-block{
+    max-width: 1680px;
+}
+
+.project-items{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-gap: 20px;
+}
+
+/* Style the project item */
+.project-item {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+/* Style the project title */
+.project-item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    
+}
+
+/* Style the project image */
+.project-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+/* Style the project details */
+.project-item h4 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.project-item p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+/* Style the project link */
+.project-item a {
+    color: #0073e6;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.project-item a:hover {
+    text-decoration: underline;
+    color: red;
+}
+
